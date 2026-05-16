@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKORO-BENJAMIN | Engineering & Digital Transformation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0f172a',
+                            primary: '#6366f1',
+                            accent: '#38bdf8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold tracking-tight bg-gradient-to-r from-indigo-400 to-sky-400 bg-clip-text text-transparent">
+                OKORO BENJAMIN I.
+            </span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-indigo-400 transition">About</a>
+                <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+                <a href="#experience" class="hover:text-indigo-400 transition">Experience</a>
+                <a href="#contact" class="hover:text-indigo-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden py-24 lg:py-32 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+            <span class="inline-flex items-center gap-1.5 py-1 px-3 rounded-full text-xs font-medium bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 mb-6">
+                COREN Registered & NSE Member
+            </span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6">
+                Bridging <span class="bg-gradient-to-r from-indigo-400 to-sky-400 bg-clip-text text-transparent">Process Engineering</span> & Full-Stack Automation
+            </h1>
+            <p class="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Chemical Engineer specializing in digital transformation, process optimization, and building full-stack applications that streamline complex business logic.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#projects" class="px-6 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium shadow-lg shadow-indigo-600/20 transition-all">
+                    View My Work
+                </a>
+                <a href="#contact" class="px-6 py-3 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium transition-all">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+        <!-- Background decorative glow -->
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold tracking-tight text-white mb-8 border-l-4 border-indigo-500 pl-4">About Me</h2>
+        <div class="grid md:grid-cols-3 gap-8 items-start">
+            <div class="md:col-span-2 space-y-6 text-slate-400 leading-relaxed">
+                <p>
+                    I am a dynamic engineer operating at the intersection of traditional physical processes and modern software architectures. With a solid foundation in **Chemical Engineering**, my professional journey is anchored in industrial quality assurance, digital optimization, and robust technical development.
+                </p>
+                <p>
+                    Over the past four years, I have engineered workflows both in analytical environments and on the web—transitioning from rigorous petroleum quality certifications to developing full-stack web applications and complex AI-driven automation pipelines. My focus is on eliminating operational bottlenecks through smart software design.
+                </p>
+            </div>
+            <div class="bg-slate-800/50 border border-slate-700/60 rounded-xl p-6 space-y-4">
+                <h3 class="text-sm font-semibold text-slate-200 uppercase tracking-wider">Quick Facts</h3>
+                <ul class="space-y-3 text-sm text-slate-400">
+                    <li class="flex items-center gap-2"><strong class="text-slate-200">Education:</strong> B.Eng Chemical Engineering</li>
+                    <li class="flex items-center gap-2"><strong class="text-slate-200">Affiliations:</strong> NSE, COREN Registered</li>
+                    <li class="flex items-center gap-2"><strong class="text-slate-200">Core Focus:</strong> Process Automation & Dev</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-slate-950/40 border-y border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tight text-white mb-12 border-l-4 border-indigo-500 pl-4">Technical Toolbox</h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Skill Card 1 -->
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-indigo-500"></span> Software Development
+                    </h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Python, SQL, JavaScript, HTML5, CSS3. Experienced in building structured database systems and responsive interfaces.
+                    </p>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-sky-500"></span> Process & Automation
+                    </h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        No-code automation architectures, functional logic integration, workflow design, and business management task automation.
+                    </p>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl">
+                    <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Engineering Quality Control
+                    </h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Petroleum products quality certification, laboratory analytical standard operations, and systemic compliance testing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold tracking-tight text-white mb-12 border-l-4 border-indigo-500 pl-4">Featured Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="flex flex-col bg-slate-900 border border-slate-800 rounded-xl overflow-hidden hover:border-slate-700 transition group">
+                <div class="p-6 flex-1">
+                    <h3 class="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition">EasyConnect Platform</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                        A robust Virtual Top-Up (VTU) and comprehensive digital services platform built to scale. Integrates multiple utility endpoints, telecommunications components, and specialized government verification modules.
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-xs font-mono text-indigo-400">
+                        <span>Full-Stack</span> • <span>API Integration</span> • <span>Digital Utilities</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="flex flex-col bg-slate-900 border border-slate-800 rounded-xl overflow-hidden hover:border-slate-700 transition group">
+                <div class="p-6 flex-1">
+                    <h3 class="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition">SpendWise Application</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                        A dynamic, full-stack monthly budget management system engineered to enforce financial discipline. Built with strict logic requirements to handle granular balance reporting, categorizations, and programmatic allocations.
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-xs font-mono text-indigo-400">
+                        <span>Database Design</span> • <span>Logic Optimization</span> • <span>UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-slate-950/40 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tight text-white mb-12 border-l-4 border-indigo-500 pl-4">Professional Track</h2>
+            <div class="space-y-12 relative before:absolute before:inset-0 before:left-4 before:w-0.5 before:bg-slate-800">
+                <!-- Role 1 -->
+                <div class="relative pl-10 group">
+                    <div class="absolute left-2.5 top-1.5 w-3.5 h-3.5 rounded-full bg-slate-900 border-2 border-indigo-500 group-hover:bg-indigo-500 transition"></div>
+                    <span class="text-xs font-mono text-indigo-400 block mb-1">4 YEARS EXPERIENCE</span>
+                    <h3 class="text-lg font-bold text-white">Laboratory Analyst & Quality Certification Specialist</h3>
+                    <p class="text-sm text-slate-500 mb-3">Petroleum Products Quality Management</p>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Executed precise compliance matrices and certification testing for petroleum products. Implemented structured analytical frameworks to verify material adherence to strict industry standard specifications.
+                    </p>
+                </div>
+                <!-- Role 2 -->
+                <div class="relative pl-10 group">
+                    <div class="absolute left-2.5 top-1.5 w-3.5 h-3.5 rounded-full bg-slate-900 border-2 border-sky-400 group-hover:bg-sky-400 transition"></div>
+                    <span class="text-xs font-mono text-sky-400 block mb-1">ONGOING</span>
+                    <h3 class="text-lg font-bold text-white">Freelance Automation Engineer & Web Developer</h3>
+                    <p class="text-sm text-slate-500 mb-3">Tech-Focused Consulting Services</p>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Architecting operations platforms, designing tailored digital assets, and deploying clean codebase structures for businesses looking to modernize their standard operating pipelines.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold tracking-tight text-white mb-4">Let's Build Something Together</h2>
+        <p class="text-slate-400 max-w-md mx-auto mb-8 text-sm sm:text-base">
+            Whether you need engineering precision applied to your software infrastructure, or full-stack automation built from scratch, reach out.
+        </p>
+        <div class="inline-flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="mailto:your.email@example.com" class="px-6 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-sm transition shadow-lg shadow-indigo-600/10">
+                okorodivine1997@gmail.com
+            </a>
+            <div class="flex gap-4 text-sm font-medium text-slate-400">
+                <a href="https://www.linkedin.com/in/okoroben08/" target="_blank" class="hover:text-white transition">LinkedIn</a>
+                <span>•</span>
+                <a href="https://github.com/okoroben/ecodetek-" target="_blank" class="hover:text-white transition">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800/60 py-8 text-center text-xs text-slate-500">
+        <p>&copy; 2026 OKORO BENJAMIN I. All Professional Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
